@@ -4,11 +4,14 @@
   "description": "🚀 Open source portfolio template for developers 👨‍💻(customizable, responsive 🔥). Fast way to create an awesome portfolio ⚡.Built with HTML, SASS, Bootstrap, and JavaScript✨.",
   "author": "Ahmed Zougari<contact@ahmedzougari.com>",
   "license": "MIT",
+  "homepage": "https://himabindutellakula.github.io/",
   "scripts": {
     "dev": "vite",
     "dev-host": "vite src --host",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -21,6 +24,7 @@
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
     "curtainsjs": "^8.1.4",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.21",
     "postcss-discard-comments": "^5.1.2",
     "postcss-load-config": "^3.1.4",

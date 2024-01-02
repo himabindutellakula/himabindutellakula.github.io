@@ -1,0 +1,7 @@
+#work {
+    margin-bottom: 3rem;
+
+    h1 {
+        @include h1;
+    }
+}

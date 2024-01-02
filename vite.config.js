@@ -11,7 +11,7 @@ module.exports = {
   ],
 
   build: {
-    outDir: '../dist',
+    outDir: './dist',
   },
 
   resolve: {
